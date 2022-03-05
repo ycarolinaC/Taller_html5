@@ -1,8 +1,13 @@
 #bloque{
     text-align:center;
     width: 1024px;
+    background-color:cornflowerblue;
+
 }
 
+#bloque ul{
+    text-align: left;
+}
 #foto{
     box-shadow: 10px 10px;
 }
@@ -17,9 +22,9 @@
 }
 
 #boton{
-    background-color:cornflowerblue;
+    background-color:blue;
     border-radius: 6px;
-    border: 2px solid cornflowerblue;
+    border: 2px solid blue;
     width: 600px;  
     height: 35px;    
     margin: 0 auto;
@@ -28,16 +33,22 @@
 #texto{
     color: black;
     text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #texto:hover{
-    color: blue;
+    color: brown;
 }
 #texto:active{
-    color: coral;  
+    color:brown;  
 }
 
 #boton:active{
+    background-color: coral;
+}
+#boton:hover{
     background-color: coral;
 }
 
@@ -50,10 +61,12 @@
 }
 
 #boton1{
-    background-color:cornflowerblue;
+    background-color:blue;
     border-radius: 6px;
-    border: 2px solid cornflowerblue;
-    width: 600px;  
-    height: 35px;   
+    border: 2px solid blue;  
     text-align: center; 
+    margin: 0 auto;
+}
+#boton1:hover{
+    background-color: coral;
 }
