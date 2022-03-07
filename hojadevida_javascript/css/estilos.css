@@ -93,34 +93,55 @@
     display: inline-block;
 }
 
-#botonA{
+.remarcar{
     background-color:blue;
     border-radius: 6px;
     border: 2px solid blue;  
     text-align: center; 
     margin: 0 auto;
 }
-#botonA:hover{
+.remarcar:hover{
     background-color: coral;
 }
-#botonA2{
+.remarcar2{
     background-color:brown;
     border-radius: 6px;
     border: 2px solid brown;  
     text-align: center; 
     margin: 0 auto;
 }
-#botonA2:hover{
+.remarcar2:hover{
     background-color:indianred;
 }
 
-#botonA3{
+.remarcar3{
     background-color:indigo;
     border-radius: 6px;
     border: 2px solid indigo;  
     text-align: center; 
     margin: 0 auto;
 }
-#botonA3:hover{
+.remarcar3:hover{
     background-color:aquamarine;
+}
+.bloque footer{
+    background-color:blue;
+    border-radius: 6px;
+    border: 2px solid blue;  
+    text-align: center; 
+    margin: 0 auto;
+}
+.bloque2 footer{
+    background-color:brown;
+    border-radius: 6px;
+    border: 2px solid brown;  
+    text-align: center; 
+    margin: 0 auto;
+}
+.bloque3 footer{
+    background-color:indigo;
+    border-radius: 6px;
+    border: 2px solid indigo;  
+    text-align: center; 
+    margin: 0 auto;
 }

@@ -11,7 +11,7 @@ cambiarColor=(id)=>{
     console.log(element.value);
     var contenedorC = document.getElementById("contenedor");
     let bloqueE;
-    var variable;
+    let bloqueP;
     /*let contenedorC= document.querySelector(`#contenedor`)*/
     console.log(contenedorC);
     switch(Number(element.value)){
@@ -23,7 +23,8 @@ cambiarColor=(id)=>{
                 contenedorC.classList.replace("bloque3", "bloque");
             }else{              
             }
-            bloqueE=contenedorC.className;  
+            bloqueE=contenedorC.className; 
+            bloqueP="remarcar";
             break;
         case 2:
             if (contenedorC.className=="bloque"){
@@ -33,7 +34,8 @@ cambiarColor=(id)=>{
                 contenedorC.classList.replace("bloque3", "bloque2");
             }else{              
             }
-            bloqueE=contenedorC.className;  
+            bloqueE=contenedorC.className; 
+            bloqueP="remarcar2";
             break;
         case 3:
             if (contenedorC.className=="bloque"){
@@ -44,12 +46,17 @@ cambiarColor=(id)=>{
             }else{              
             }
             bloqueE=contenedorC.className;  
-            break; 
-        
+            bloqueP="remarcar3";
+            break;    
     }
-    document.getElementById("prueba").innerHTML = bloqueE;
-    localStorage.setItem("txtValue", bloqueE);
+    localStorage.removeItem("valor1");
+    localStorage.removeItem("valor2");
+    /*document.getElementById("remarcarB").innerHTML = bloqueE;*/
+    localStorage.setItem("valor1", bloqueE);
     console.log("esto e suna prueba",bloqueE)
+    /*document.getElementById("remarcarP").innerHTML = bloqueP;*/
+    localStorage.setItem("valor2", bloqueP);
+    console.log("esto e suna prueba",bloqueP)
     
 }
 
