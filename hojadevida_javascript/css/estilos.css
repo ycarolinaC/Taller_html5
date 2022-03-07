@@ -146,6 +146,10 @@
     margin: 0 auto;
 }
 
-#ocultar{
+.ocultar{
     display: none;
+}
+
+.mostrar{
+    display: block;
 }

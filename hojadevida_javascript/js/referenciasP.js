@@ -10,5 +10,9 @@ const recibir=()=>{
 }
 
 const mostrar=(id)=>{
-    document.getElementById("ocultar").style.display='block';
+    if(document.querySelector(`#${id}`).classList.contains("mostrar")){
+        document.querySelector(`#${id}`).classList.remove("mostrar");
+    }else{
+        document.querySelector(`#${id}`).classList.add("mostrar");
+    }
 }
