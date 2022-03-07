@@ -8,3 +8,7 @@ const recibir=()=>{
     let contenedorP = document.getElementById("botonA");
     contenedorP.className=datos1;
 }
+
+const mostrar=(id)=>{
+    document.getElementById("ocultar").style.display='block';
+}
